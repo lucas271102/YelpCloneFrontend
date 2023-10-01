@@ -12,3 +12,4 @@ const router = createBrowserRouter([
         path:'/restaurants/:id', element:<RestaurantPage/>
     }
 ])
+export default router
