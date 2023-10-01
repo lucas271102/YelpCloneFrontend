@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='text-3xl font-light'>Restaurant Finder</div>
+          <h1 className='text-3xl font-light'>Restaurant Finder</h1>
   )
 }
 

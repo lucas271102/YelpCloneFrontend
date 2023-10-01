@@ -4,9 +4,9 @@ import App from './App.jsx'
 import './index.css'
 import {NextUIProvider} from "@nextui-org/react";
 import { RouterProvider } from 'react-router-dom';
-import Router from './routes/Router.jsx';
+import routes from './router/router.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <NextUIProvider>
-    <RouterProvider router={Router}/>
+    <RouterProvider router={routes}/>
   </NextUIProvider>,
 )
