@@ -2,6 +2,8 @@ import React from "react";
 import { Input } from "@nextui-org/react";
 import { Select, SelectItem } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
+import axios from "axios";
+import { useEffect } from "react";
 import {
   Table,
   TableHeader,
@@ -12,6 +14,7 @@ import {
   RadioGroup,
   Radio,
 } from "@nextui-org/react";
+import apiUrl from "../api";
 const colors = [
   "default",
   "primary",
